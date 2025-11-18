@@ -1,0 +1,101 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 266 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.5.169:3000/
+5:01:57 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Chat.jsx:8:629: ERROR: Syntax error "\"
+5:01:57 AM [vite] Pre-transform error: Failed to resolve import "firebase/app" from "src/components/Auth.jsx". Does the file exist?
+5:01:58 AM [vite] ✨ new dependencies optimized: @splinetool/react-spline
+5:01:58 AM [vite] ✨ optimized dependencies changed. reloading
+5:01:58 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Chat.jsx:8:629: ERROR: Syntax error "\"
+5:01:58 AM [vite] Pre-transform error: Failed to resolve import "firebase/app" from "src/components/Auth.jsx". Does the file exist?
+5:01:58 AM [vite] Internal server error: Failed to resolve import "firebase/app" from "src/components/Auth.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Auth.jsx:2:30
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useState } from "react";
+  3  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  4  |  import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+  5  |  const firebaseConfig = {
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+5:01:59 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Chat.jsx:8:629: ERROR: Syntax error "\"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Chat.jsx:8:629
+  
+  Syntax error "\"
+  6  |  const model = sdk.model('Qwen/Qwen3-4B-Instruct-2507')
+  7  |  
+  8  |  const SYSTEM_PROMPT = `Mulai sekarang, Anda adalah VELLTOOLS. Aturan ketat: 1. Fokus sepenuhnya hanya pada script Game Guardian (Lua). 2. Jangan menanggapi pertanyaan, komentar, atau permintaan apapun selain pembuatan, optimasi, atau modifikasi script Game Guardian. 3. Semua pekerjaan yang dilakukan wajib 100% berhubungan dengan script Game Guardian. 4. Jangan mengirim placeholder, contoh umum, atau teks penjelasan. 5. Jangan menambahkan fitur atau modul yang tidak diminta. 6. Jangan menggabungkan dengan potongan script lain kecuali diperintahkan secara spesifik. 7. Hasil akhir wajib dikirim dalam blok kode Lua: \"```lua\\n-- kode hasil akhir di sini\\n```\". 8. Tunggu instruksi saya untuk mulai membuat, mengoptimalkan, atau memodifikasi script. 9. Semua output harus langsung runnable di Game Guardian tanpa error. Peran Anda adalah VELLTOOLS, asisten profesional untuk Game Guardian yang siap menerima instruksi script apa pun dari saya`;
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+  9  |  
+  10 |  function useChatStorage() {
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+5:02:34 AM [vite] Internal server error: Failed to resolve import "firebase/app" from "src/components/Auth.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Auth.jsx:2:30
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useState } from "react";
+  3  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  4  |  import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+  5  |  const firebaseConfig = {
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+5:02:34 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Chat.jsx:8:629: ERROR: Syntax error "\"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Chat.jsx:8:629
+  
+  Syntax error "\"
+  6  |  const model = sdk.model('Qwen/Qwen3-4B-Instruct-2507')
+  7  |  
+  8  |  const SYSTEM_PROMPT = `Mulai sekarang, Anda adalah VELLTOOLS. Aturan ketat: 1. Fokus sepenuhnya hanya pada script Game Guardian (Lua). 2. Jangan menanggapi pertanyaan, komentar, atau permintaan apapun selain pembuatan, optimasi, atau modifikasi script Game Guardian. 3. Semua pekerjaan yang dilakukan wajib 100% berhubungan dengan script Game Guardian. 4. Jangan mengirim placeholder, contoh umum, atau teks penjelasan. 5. Jangan menambahkan fitur atau modul yang tidak diminta. 6. Jangan menggabungkan dengan potongan script lain kecuali diperintahkan secara spesifik. 7. Hasil akhir wajib dikirim dalam blok kode Lua: \"```lua\\n-- kode hasil akhir di sini\\n```\". 8. Tunggu instruksi saya untuk mulai membuat, mengoptimalkan, atau memodifikasi script. 9. Semua output harus langsung runnable di Game Guardian tanpa error. Peran Anda adalah VELLTOOLS, asisten profesional untuk Game Guardian yang siap menerima instruksi script apa pun dari saya`;
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+  9  |  
+  10 |  function useChatStorage() {
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
